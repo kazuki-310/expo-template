@@ -1,9 +1,6 @@
-import { Stack } from 'expo-router/stack';
+import { Slot } from 'expo-router';
 
-export default function Layout() {
-  return (
-    <Stack>
-      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-    </Stack>
-  );
-}
+// Import your global CSS file
+import '../global.css';
+
+export default Slot;
