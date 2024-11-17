@@ -1,12 +1,9 @@
-import { useLocalSearchParams } from 'expo-router';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function DetailsScreen() {
-  const { id } = useLocalSearchParams();
-
+export default function Tab() {
   return (
     <View style={styles.container}>
-      <Text>Details of user {id} </Text>
+      <Text>Tab [Home|Settings]</Text>
     </View>
   );
 }

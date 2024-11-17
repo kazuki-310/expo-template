@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function Settings() {
+export default function Tab() {
   return (
     <View style={styles.container}>
-      <Text>Settings</Text>
+      <Text>Tab [Home|Settings]</Text>
     </View>
   );
 }
