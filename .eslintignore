@@ -1,0 +1,8 @@
+.expo/
+.expo-shared/
+assets/
+**/coverage/
+**/node_modules/
+**/*.min.js
+*.config.js
+.*lintrc.js
